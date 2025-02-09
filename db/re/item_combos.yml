@@ -55899,3 +55899,18 @@ Body:
          bonus2 bSkillAtk,"DK_DRAGONIC_PIERCE",15;
          bonus bCritical,10;
       }
+  - Combos:
+      - Combo:
+          - Incant_Samurai_Card    # 4263
+          - Magic_Sword_J   # 500005
+    Script: |
+      bonus bAspdRate,10;
+      bonus bAtkRate,20;
+  - Combos:
+      - Combo:
+          - Sealed_Samurai_Card  # 4499
+          - Magic_Sword_J   # 500005
+    Script: |
+      bonus bAspdRate,10;
+      bonus bAtkRate,20;
+      
